@@ -163,3 +163,63 @@ org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.la
 !ENTRY org.talend.platform.logging 1 0 2023-10-30 21:06:58.825
 !MESSAGE 2023-10-30 21:06:58,825 INFO  org.talend.designer.core.runprocess.Processor  - CommandLine: C:/Program Files/Java/jre1.8.0_301/bin/java.exe -Xms256M -Xmx1024M -Dtalend.component.manager.m2.repository=C:/Users/user/Desktop/talend_esb_studio/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/.m2/repository -Dfile.encoding=UTF-8 -Dencryption.keys.file=/C:/Users/user/Desktop/talend_esb_studio/TOS_ESB-20200219_1130-V7.3.1/Studio/configuration/studio.keys -cp C:/FAC_FR/FAC_FR/poms/jobs/process/j_test_java_0.1/target/classpath.jar; fac_fr.j_test_java_0_1.j_test_java --context=Default --stat_port=3447 %*
 
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 21:12:51.137
+!MESSAGE 2023-10-30 21:12:51,137 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\FAC_FR\FAC_FR\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 21:12:51.137
+!MESSAGE 2023-10-30 21:12:51,137 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Users\user\Desktop\talend_esb_studio\TOS_ESB-20200219_1130-V7.3.1\Studio\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 21:12:54.036
+!MESSAGE 2023-10-30 21:12:54,036 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FAC_FR_ROUTINES: org.example.fac_fr.code:routines:7.3.1 with classifier  to /FAC_FR_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 21:12:54.048
+!MESSAGE 2023-10-30 21:12:54,048 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\FAC_FR\FAC_FR\poms\code\beans
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 21:12:54.049
+!MESSAGE 2023-10-30 21:12:54,048 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Users\user\Desktop\talend_esb_studio\TOS_ESB-20200219_1130-V7.3.1\Studio\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 21:12:56.923
+!MESSAGE 2023-10-30 21:12:56,923 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 21:12:57.034
+!MESSAGE 2023-10-30 21:12:57,034 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FAC_FR_ROUTINES: org.example.fac_fr.code:routines:7.3.1 with classifier  to /FAC_FR_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 21:12:57.160
+!MESSAGE 2023-10-30 21:12:57,160 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FAC_FR_J_TEST_JAVA_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 21:12:57.160
+!MESSAGE 2023-10-30 21:12:57,160 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FAC_FR_J_TEST_JAVA_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 21:12:57.160
+!MESSAGE 2023-10-30 21:12:57,160 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FAC_FR_J_TEST_JAVA_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 21:12:57.160
+!MESSAGE 2023-10-30 21:12:57,160 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FAC_FR_J_TEST_JAVA_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 21:12:57.207
+!MESSAGE 2023-10-30 21:12:57,207 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 21:12:57.350
+!MESSAGE 2023-10-30 21:12:57,350 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FAC_FR_ROUTINES: org.example.fac_fr.code:routines:7.3.1 with classifier  to /FAC_FR_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 21:12:57.461
+!MESSAGE 2023-10-30 21:12:57,461 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\FAC_FR\FAC_FR\poms\jobs\process\j_test_java_0.1
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 21:12:57.461
+!MESSAGE 2023-10-30 21:12:57,461 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Users\user\Desktop\talend_esb_studio\TOS_ESB-20200219_1130-V7.3.1\Studio\configuration\maven_user_settings.xml package -llr -l C:/FAC_FR/FAC_FR/poms/jobs/process/j_test_java_0.1/lastGenerated.log -P default-settings,include-java-sources,!include-maven-resources,include-items,include-libs,include-binaries,!include-running-log4j,!include-log4j,include-contexts,!include-test-sources,!include-test-reports,!include-xmlMappings,!include-running-xmlMappings,packaging-and-assembly,!ci-builder -Dmaven.test.skip=true -Dmaven.main.skip=true -Dci.builder.skip=true
+
