@@ -1,0 +1,109 @@
+!SESSION 2023-10-30 20:43:20.012 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_301
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -talendReload false
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/C:/FAC_FR/ -talendReload false
+
+!ENTRY org.eclipse.jdt.launching.macosx 4 0 2023-10-30 20:43:21.399
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.macosx [19]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.eclipse.jdt.launching.ui.macosx 4 0 2023-10-30 20:43:21.411
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.jdt.launching.ui.macosx [20]
+  Unresolved requirement: Require-Capability: eclipse.platform; filter:="(osgi.os=macosx)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:451)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1783)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1762)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1725)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1656)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:343)
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 20:43:24.476
+!MESSAGE 2023-10-30 20:43:24,476 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Users\user\Desktop\talend_esb_studio\TOS_ESB-20200219_1130-V7.3.1\Studio\configuration\studio.keys
+
+
+!ENTRY org.talend.platform.logging 2 0 2023-10-30 20:43:52.556
+!MESSAGE 2023-10-30 20:43:52,556 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 20:44:07.171
+!MESSAGE 2023-10-30 20:44:07,171 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FAC_FR_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 20:44:07.186
+!MESSAGE 2023-10-30 20:44:07,171 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FAC_FR_ROUTINES/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 20:44:07.188
+!MESSAGE 2023-10-30 20:44:07,188 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FAC_FR_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 20:44:07.188
+!MESSAGE 2023-10-30 20:44:07,188 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FAC_FR_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 20:44:08.347
+!MESSAGE 2023-10-30 20:44:08,347 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FAC_FR_BEANS/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 20:44:08.347
+!MESSAGE 2023-10-30 20:44:08,347 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FAC_FR_BEANS/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 20:44:08.352
+!MESSAGE 2023-10-30 20:44:08,347 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /FAC_FR_BEANS/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 20:44:08.352
+!MESSAGE 2023-10-30 20:44:08,352 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /FAC_FR_BEANS/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 20:44:11.820
+!MESSAGE 2023-10-30 20:44:11,820 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FAC_FR_ROUTINES: org.example.fac_fr.code:routines:7.3.1 with classifier  to /FAC_FR_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 20:44:13.399
+!MESSAGE 2023-10-30 20:44:13,399 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\FAC_FR\FAC_FR\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 20:44:13.399
+!MESSAGE 2023-10-30 20:44:13,399 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Users\user\Desktop\talend_esb_studio\TOS_ESB-20200219_1130-V7.3.1\Studio\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 20:44:19.041
+!MESSAGE 2023-10-30 20:44:19,041 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/FAC_FR_ROUTINES: org.example.fac_fr.code:routines:7.3.1 with classifier  to /FAC_FR_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 20:44:19.212
+!MESSAGE 2023-10-30 20:44:19,212 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  - C:\FAC_FR\FAC_FR\poms\code\beans
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 20:44:19.223
+!MESSAGE 2023-10-30 20:44:19,223 INFO  org.eclipse.m2e.internal.launch.MavenLaunchDelegate  -  mvn -B -o -s C:\Users\user\Desktop\talend_esb_studio\TOS_ESB-20200219_1130-V7.3.1\Studio\configuration\maven_user_settings.xml install -llr -Dmaven.main.skip=true -Dci.builder.skip=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 20:44:23.101
+!MESSAGE 2023-10-30 20:44:23,101 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - user@talend.com connecté à FAC_FR
+
+
+!ENTRY org.talend.platform.logging 1 0 2023-10-30 20:44:24.415
+!MESSAGE 2023-10-30 20:44:24,415 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
