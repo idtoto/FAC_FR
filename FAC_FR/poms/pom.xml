@@ -8,6 +8,11 @@
   <packaging>pom</packaging>
   <name>FAC_FR Codes Master</name>
   <url>http://www.talend.org/</url>
+  <modules>
+    <module>code/routines</module>
+    <module>jobs/process/j_test_java_0.1</module>
+    
+  </modules>
   <properties>
     <talend.project.name>FAC_FR</talend.project.name>
     <encoding>UTF-8</encoding>

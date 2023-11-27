@@ -120,14 +120,11 @@
         <plugins>
           <plugin>
             <groupId>org.talend.ci</groupId>
-            <artifactId>signer-maven-plugin</artifactId>
-            <version>${signer.version}</version>
-            <executions>
-              <execution>
-                <id>sign</id>
+            <artifactId>builder-maven-plugin</artifactId>
+            <version>8.0.1</version>
                 <phase>package</phase>
                 <goals>
-                  <goal>sign</goal>
+                  <goal>package</goal>
                 </goals>
               </execution>
             </executions>
