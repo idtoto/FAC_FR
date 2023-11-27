@@ -119,15 +119,17 @@
       <build>
         <plugins>
           <plugin>
-            <groupId>org.talend.ci</groupId>
-            <artifactId>builder-maven-plugin</artifactId>
-            <version>8.0.1</version>
-                <phase>package</phase>
-                <goals>
-                  <goal>package</goal>
-                </goals>
-              </execution>
-            </executions>
+              <groupId>org.talend.ci</groupId>
+              <artifactId>osgihelper-maven-plugin</artifactId>
+              <version>8.0.1</version>
+              <executions>
+                  <execution>
+                      <phase>generate-sources</phase>
+                      <goals>
+                         <goal>local-generate</goal>
+                      </goals>
+                     </execution>
+              </executions>
           </plugin>
         </plugins>
       </build>
